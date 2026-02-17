@@ -10,4 +10,4 @@ sort(10, 10, 10, 5)   # STANDARD
 sort(100, 100, 100, 20)   # REJECTED
 ```
 
-**Tests:** `pip install pytest` then `pytest test_classifier.py -v`
+**Tests:** `pip install pytest` then `python -m pytest tests/ -v` (run from project root)
